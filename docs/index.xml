@@ -1,0 +1,58 @@
+<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>啊哈咦</title>
+    <link>http://Force1ess.github.io/</link>
+    <description>Recent content on 啊哈咦</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sun, 20 Aug 2023 18:44:48 +0800</lastBuildDate>
+    
+        <atom:link href="http://Force1ess.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+        <item>
+        <title>建站首文</title>
+        <link>http://Force1ess.github.io/posts/%E5%BB%BA%E7%AB%99%E9%A6%96%E6%96%87/</link>
+        <pubDate>Sun, 20 Aug 2023 18:44:48 +0800</pubDate>
+        
+        <guid>http://Force1ess.github.io/posts/%E5%BB%BA%E7%AB%99%E9%A6%96%E6%96%87/</guid>
+        <description>啊哈咦 http://Force1ess.github.io/posts/%E5%BB%BA%E7%AB%99%E9%A6%96%E6%96%87/ -&lt;h1 id=&#34;终于建站啦&#34;&gt;终于建站啦&lt;/h1&gt;
+&lt;p&gt;早就想拥有一个自己的个人网站，但是一方面因为自己太过懒狗，一方面也没有什么太多好写的，一直没有开始行动&lt;/p&gt;
+&lt;p&gt;刚好现在研 0, 入学 ISCAS 的中文实验室，百废待兴，决定做一个个人网站记录自己的生活&lt;/p&gt;
+&lt;p&gt;博客引擎使用&lt;a href=&#34;https://github.com/gohugoio/hugo&#34;&gt;hugo&lt;/a&gt;，感觉速度很不错，第三方资源很丰富，使用逻辑也符合直觉&lt;/p&gt;
+&lt;p&gt;主题选用&lt;a href=&#34;https://github.com/AmazingRise/hugo-theme-diary&#34;&gt;Diary&lt;/a&gt;，颜值对眼，可惜的是文档说明非常简陋，而且个人希望中国人写的框架能有一个中文文档~~，虽然也不是必需品吧~~&lt;/p&gt;
+&lt;p&gt;顺便也列出自己的研究生规划:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 学会开摩托车&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 学会尤克里里&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 托福 90+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 练出腹肌&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+- http://Force1ess.github.io/posts/%E5%BB%BA%E7%AB%99%E9%A6%96%E6%96%87/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>About</title>
+        <link>http://Force1ess.github.io/about/</link>
+        <pubDate>Sun, 20 Aug 2023 18:29:48 +0800</pubDate>
+        
+        <guid>http://Force1ess.github.io/about/</guid>
+        <description>啊哈咦 http://Force1ess.github.io/about/ -&lt;h2 id=&#34;天天起来睡大觉&#34;&gt;天天起来睡大觉&lt;/h2&gt;
+- http://Force1ess.github.io/about/ - </description>
+        </item>
+    
+    
+  </channel>
+</rss> 
