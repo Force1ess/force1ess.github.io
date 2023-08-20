@@ -1,0 +1,26 @@
+baseURL = 'http://Force1ess.github.io/'
+languageCode = 'zh'
+title = '啊哈咦'
+theme = 'diary'
+
+[params]
+subtitle = "没有技术，全是生活"
+favicon ="https://avatars.githubusercontent.com/u/72636351?v=4"
+
+[[menu.main]]
+url = "/posts"
+name = "Vault 文章"
+weight = 2
+
+[[menu.main]]
+url = "/tags"
+name = "Tags 标签"
+weight = 2
+
+[[menu.main]]
+url = "/about"
+name = "About Me 我"
+
+
+[markup.goldmark.renderer]
+    unsafe = true
