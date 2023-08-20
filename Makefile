@@ -1,8 +1,10 @@
 server:
 	hugo server -w -D
-commit :
-	git add .&& git commit
-push:clean
-	git push origin master
 clean:
 	rm -rf public
+build:
+	hugo
+commit :clean build
+	git add .&& git commit
+push:commit
+	git push origin master
