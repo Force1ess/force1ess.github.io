@@ -6,9 +6,130 @@
     <description>Recent content on 啊哈咦</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 20 Aug 2023 18:44:48 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 15 Sep 2023 14:09:15 +0800</lastBuildDate>
     
         <atom:link href="http://Force1ess.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+        <item>
+        <title>Linux配置指北</title>
+        <link>http://Force1ess.github.io/posts/linux%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8C%97/</link>
+        <pubDate>Fri, 15 Sep 2023 14:09:15 +0800</pubDate>
+        
+        <guid>http://Force1ess.github.io/posts/linux%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8C%97/</guid>
+        <description>啊哈咦 http://Force1ess.github.io/posts/linux%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8C%97/ -&lt;h1 id=&#34;linux配置指北&#34;&gt;Linux配置指北&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;由于今晚就要换一台mbp 16,所以写一篇blog记录自己是如何配置Linux, 最后说说为什么要换成mac&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;系统设置&#34;&gt;系统设置：&lt;/h3&gt;
+&lt;p&gt;这次装机选择了Arch下的Manjaro, 原因很简单，Ubuntu下有太多难以安装的软件包了。而Arch的包管理器采用滚动更新，在AUR的加持下可以安装似乎所有最新的软件。另外，Arch有一个非常好的&lt;a href=&#34;https://wiki.archlinuxcn.org/wiki/%E9%A6%96%E9%A1%B5&#34;&gt;中文文档&lt;/a&gt;和&lt;a href=&#34;https://bbs.archlinuxcn.org/&#34;&gt;论坛&lt;/a&gt;。使用Manjaro的原因是它在Arch之上又覆盖了更多的常用配置和软件，类似 zsh等。他俩的关系类似于 Debian和 Ubuntu&lt;/p&gt;
+&lt;p&gt;但缺点是你的包一更新它就会提示你更新，有点烦人，一些软件如gnome的更新可能导致它的插件用不了。还有现在新版的Linux都有一个由系统维护/使用的Python, 对我等环境洁癖不是很友好&lt;/p&gt;
+&lt;p&gt;在约莫半年的使用过程中，系统还挂了一次，还好使用回滚更新后救了回来&lt;/p&gt;
+&lt;p&gt;如果再让我选一次使用哪个系统，我大概会尝试一下&lt;a href=&#34;https://nixos-and-flakes.thiscute.world/zh/&#34;&gt;NixOS&lt;/a&gt;，Reproducible builds的概念让它像个大号Docker。如果使用Nix的话大概率我就不会写这篇blog了叭&lt;/p&gt;
+&lt;p&gt;软件：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/zzzgydi/clash-verge&#34;&gt;Clash-Verge&lt;/a&gt; 真正的开源+跨三平台，薄纱某ForWin&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Scrcpy 用于镜像及操作安卓手机屏幕&lt;/p&gt;
+&lt;p&gt;小故事：在某次坐火车的时候把Mi 10屏幕摔碎了，屏幕上部80%区域都无法触摸，无法输入密码和指纹解锁，最后连自己坐哪里都是问了列车员才知道的&lt;/p&gt;
+&lt;p&gt;然后就是开动脑筋环节，首先想到了&lt;code&gt;adb&lt;/code&gt;。在借用领座大叔的热点和网友智慧之后，成功通过&lt;code&gt;adb shell input text password&lt;/code&gt;解锁手机，那一刻感觉自己又活过来了。再使用Scrcpy用笔记本操纵手机，给自己打了个车回海淀。又使用手机的touch pad软件坚持了两个月直到iPhone 15发售&lt;/p&gt;
+&lt;p&gt;最后，分享一个代码用于搜索端口号连接手机&lt;code&gt;adb connect 10.206.50.13:$(nmap 10.206.50.13 -p 37000-44000&lt;/code&gt;。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Solaar 用于配置天下第一鼠标罗技MX Anywhere 2s，如果要使用Rule Editor记得要把按键设置成Diversion，我平时会配置中键关闭&lt;code&gt;ctrl+w&lt;/code&gt;，dpi键&lt;code&gt;ctrl+←&lt;/code&gt;，侧键分别是&lt;code&gt;ctrl(+shift)+tab&lt;/code&gt;，三个键联合开源极大提高网页浏览体验，再加上无极滚轮，爽的嘞。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;YesPlayMusic 跨平台，网抑云音乐的替代，颜值太高了，尤其是在歌词界面打开全屏，但如果歌单有会员歌曲，跳下一首的延时有点高&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/c0re100/qBittorrent-Enhanced-Edition&#34;&gt;qBittorrent-Enhanced-Edition&lt;/a&gt; 跨平台，补全了Linux qBit的功能，如Tracker&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Zotero 阅读PDF的最佳工具，插件系统yyds&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Typora 最佳Markdown编辑器，免费版本：&lt;code&gt;typora-free-cn&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;LinuxQQ 闪退时&lt;code&gt;rm -rf .config/QQ&lt;/code&gt;，不要更新版本&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;WPS 挺失望的，配置麻烦，兼容性差，体验很差&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;VLC 挺失望的，做了这么久的视频播放器还这么不成熟，体验很差&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;快捷键：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;将某个窗口置于前台&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#!/bin/bash 
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; pgrep &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;code&amp;#34;&lt;/span&gt; &amp;gt; /dev/null; &lt;span style=&#34;color:#66d9ef&#34;&gt;then&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;wmctrl -a &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Visual Studio Code&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;code &amp;amp;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;fi&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;打开剪贴板、音乐相关及窗口设置&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;取色器使用eyedropper&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;英文OCR：Normcap&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;桌面设置&#34;&gt;桌面设置：&lt;/h3&gt;
+&lt;p&gt;桌面系统使用了gnome, 原因是因为觉得KDE没有美感，设置界面也太丑了，另外对gnome的配置也熟悉一点&lt;/p&gt;
+&lt;p&gt;导航栏使用了&lt;a href=&#34;https://launchpad.net/plank&#34;&gt;Plank&lt;/a&gt;，主要原因是好看，主题是&lt;a href=&#34;https://www.gnome-look.org/p/1311056/&#34;&gt;Catalinas_Original-Pill&lt;/a&gt;魔改。但是Plank非常容易出现崩溃和小bug，dockitem存储在&lt;code&gt;.config/plank/dock1/launchers/&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;另外，它识别StartupWMClass时区分大小写，遇到一个应用两个窗口要结合前面的xprop手动修改launcher的StartupWMClass&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;grub 主题使用&lt;a href=&#34;https://www.gnome-look.org/p/1230882&#34;&gt;Fallout&lt;/a&gt;， &lt;del&gt;还发了一个PR, 可惜被另一个类似PR覆盖了&lt;/del&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Fonts：MiSans, CascadiaCode, Fira Code&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Cursor: Bibata-Modern-Ice, icons: Fluent&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;extensions: 见页尾&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;终端配置&#34;&gt;终端配置：&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;fish是一个不错的shell, 配置少，开箱即用&lt;/li&gt;
+&lt;li&gt;aria2c 个人认为是最强下载器&lt;/li&gt;
+&lt;li&gt;.tmux.conf  &lt;code&gt;set -g mouse on&lt;/code&gt; 在tmux窗口中开启鼠标功能，&lt;code&gt;set-option -g default-shell /bin/fish &lt;/code&gt;设置默认shell&lt;/li&gt;
+&lt;li&gt;xprop 获取光标点击的窗口信息&lt;/li&gt;
+&lt;li&gt;xdgmime可以配置xdg-open的打开方式&lt;/li&gt;
+&lt;li&gt;alias man=&lt;a href=&#34;https://github.com/dbrgn/tealdeer&#34;&gt;tldr&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;额外备份项&#34;&gt;额外备份项：&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;浏览器：ublock blacklist、onetab、tampermonkey导出&lt;/li&gt;
+&lt;li&gt;终端：vimrc、zshrc、.tmux.conf&lt;/li&gt;
+&lt;li&gt;插件：gnome-extensons-sync&lt;/li&gt;
+&lt;li&gt;配置：Clash-Verge配置文件、VSCode配置文件、SSH配置文件(公钥、私钥、knowhosts)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;为什么使用mac&#34;&gt;为什么使用Mac：&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Steve Jobs: &lt;strong&gt;People who are really serious about software should make their own hardware&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;简而言之：Apple Silicon&lt;/p&gt;
+&lt;p&gt;果壳的课程安排是，中午只有一个半小时，下午只有一个小时休息时间，中间根本没有给笔记本充电的机会。另外，每周都需要开会。Win本只要两三个小时就基本寄了(Lenovo Yoga 16s)，续航尿崩。另外现在有了充裕的服务器，不需要NVIDIA显卡了&lt;/p&gt;
+&lt;p&gt;此时我发现，身边一半的人都在用Mac。另外也确实眼馋Mac的屏幕(Mini LED+ProMotion)、摄像头(比镜子好用多了)、续航等。刚好今天抢购iPhone 15, 就顺便一起买了个mbp16(主要还是实验室抠门不给我们发)&lt;/p&gt;
+&lt;hr&gt;
+&lt;details&gt;
+&lt;summary&gt;gnome-extensions&lt;/summary&gt; {&#34;extensions&#34;:{&#34;unlockDialogBackground@sun.wxg@gmail.com&#34;:{&#34;/org/gnome/shell/extensions/unlock-dialog-background/&#34;:&#34;[/]\npicture-uri=&#39;/home/forceless/Pictures/107533107_p0_master1200.jpg&#39;\npicture-uri-dark=&#39;/home/forceless/Pictures/107533107_p0_master1200.jpg&#39;&#34;},&#34;bluetooth-quick-connect@bjarosze.gmail.com&#34;:{&#34;/org/gnome/shell/extensions/bluetooth-quick-connect/&#34;:&#34;[/]\nbluetooth-auto-power-on=true\ndebug-mode-on=true\nkeep-menu-on-toggle=true\nrefresh-button-on=true\nshow-battery-value-on=true&#34;},&#34;kimpanel@kde.org&#34;:{&#34;/org/gnome/shell/extensions/kimpanel/&#34;:&#34;&#34;},&#34;mediacontrols@cliffniff.github.com&#34;:{&#34;/org/gnome/shell/extensions/mediacontrols/&#34;:&#34;[/]\ncolored-player-icon=true\nextension-position=&#39;center&#39;\nhide-media-notification=false\nmouse-actions=[&#39;toggle_play&#39;, &#39;toggle_menu&#39;, &#39;none&#39;, &#39;none&#39;, &#39;none&#39;, &#39;none&#39;, &#39;none&#39;, &#39;none&#39;]\nprefer-using-seek=false\nseperator-chars=[&#39;|&#39;, &#39;|&#39;]\nshow-control-icons=true\nshow-player-icon=false\nshow-playpause-icon=true\nshow-seek-back=false\nshow-seek-forward=false\nshow-seperators=false\nshow-sources-menu=false\nshow-text=false\ntrack-label=[&#39;none&#39;, &#39;-&#39;, &#39;none&#39;]&#34;},&#34;noannoyance-fork@vrba.dev&#34;:{&#34;/org/gnome/shell/extensions/noannoyance-fork/&#34;:&#34;&#34;},&#34;openweather-extension@jenslody.de&#34;:{&#34;/org/gnome/shell/extensions/openweather/&#34;:&#34;[/]\nactual-city=0\ncity=&#39;39.9740057,116.3132061&gt;中关村, 中关村街道, 东升镇, 海淀区, 北京市, 100086, 中国&gt;0&#39;\nposition-in-panel=&#39;center&#39;&#34;},&#34;blur-my-shell@aunetx&#34;:{&#34;/org/gnome/shell/extensions/blur-my-shell/&#34;:&#34;[/]\nbrightness=0.59999999999999998\ncolor=(0.0, 0.0, 0.0, 0.0)\ncolor-and-noise=false\nhacks-level=1\nnoise-amount=0.029999999999999999\nsigma=3\n\n[applications]\nblur=false\n\n[dash-to-dock]\nblur=true\ncustomize=true\nsigma=200\n\n[hidetopbar]\ncompatibility=false\n\n[overview]\nblur=true\ncustomize=false\nsigma=4\n\n[panel]\nblur=false\nbrightness=1.0\ncustomize=true\noverride-background=false\nsigma=108\nstatic-blur=true\nunblur-in-overview=false&#34;,&#34;/org/gnome/shell/extensions/blur-my-shell/overview/&#34;:&#34;[/]\nblur=true\ncustomize=false\nsigma=4&#34;,&#34;/org/gnome/shell/extensions/blur-my-shell/appfolder/&#34;:&#34;&#34;,&#34;/org/gnome/shell/extensions/blur-my-shell/panel/&#34;:&#34;[/]\nblur=false\nbrightness=1.0\ncustomize=true\noverride-background=false\nsigma=108\nstatic-blur=true\nunblur-in-overview=false&#34;,&#34;/org/gnome/shell/extensions/blur-my-shell/dash-to-dock/&#34;:&#34;[/]\nblur=true\ncustomize=true\nsigma=200&#34;,&#34;/org/gnome/shell/extensions/blur-my-shell/applications/&#34;:&#34;[/]\nblur=false&#34;,&#34;/org/gnome/shell/extensions/blur-my-shell/screenshot/&#34;:&#34;&#34;,&#34;/org/gnome/shell/extensions/blur-my-shell/lockscreen/&#34;:&#34;&#34;,&#34;/org/gnome/shell/extensions/blur-my-shell/window-list/&#34;:&#34;&#34;,&#34;/org/gnome/shell/extensions/blur-my-shell/hidetopbar/&#34;:&#34;[/]\ncompatibility=false&#34;,&#34;/org/gnome/shell/extensions/blur-my-shell/dash-to-panel/&#34;:&#34;&#34;}},&#34;keybindings&#34;:{&#34;/org/gnome/mutter/keybindings/&#34;:&#34;[/]\ntoggle-tiled-left=[&#39;&#39;]\ntoggle-tiled-right=[&#39;&#39;]&#34;,&#34;/org/gnome/mutter/wayland/keybindings/&#34;:&#34;[/]\nrestore-shortcuts=[&#39;&#39;]&#34;,&#34;/org/gnome/shell/keybindings/&#34;:&#34;[/]\nshow-screenshot-ui=[&#39;&lt;Shift&gt;&lt;Super&gt;s&#39;]\ntoggle-application-view=[&#39;&#39;]\ntoggle-message-tray=@as []\ntoggle-overview=[&#39;&#39;]&#34;,&#34;/org/gnome/desktop/wm/keybindings/&#34;:&#34;[/]\nclose=[&#39;&lt;Alt&gt;F4&#39;]\nmove-to-workspace-1=[&#39;&#39;]\nmove-to-workspace-10=[&#39;&#39;]\nmove-to-workspace-2=[&#39;&#39;]\nmove-to-workspace-3=[&#39;&#39;]\nmove-to-workspace-4=[&#39;&#39;]\nmove-to-workspace-5=[&#39;&#39;]\nmove-to-workspace-6=[&#39;&#39;]\nmove-to-workspace-7=[&#39;&#39;]\nmove-to-workspace-8=[&#39;&#39;]\nmove-to-workspace-9=[&#39;&#39;]\nshow-desktop=[&#39;&lt;Super&gt;d&#39;]\nswitch-input-source=[&#39;&#39;]\nswitch-input-source-backward=[&#39;&#39;]\nswitch-to-workspace-1=[&#39;&#39;]\nswitch-to-workspace-10=[&#39;&#39;]\nswitch-to-workspace-2=[&#39;&#39;]\nswitch-to-workspace-3=[&#39;&#39;]\nswitch-to-workspace-4=[&#39;&#39;]\nswitch-to-workspace-5=[&#39;&#39;]\nswitch-to-workspace-6=[&#39;&#39;]\nswitch-to-workspace-7=[&#39;&#39;]\nswitch-to-workspace-8=[&#39;&#39;]\nswitch-to-workspace-9=[&#39;&#39;]\nunmaximize=[&#39;&#39;]&#34;,&#34;/org/gnome/settings-daemon/plugins/media-keys/&#34;:&#34;[/]\ncustom-keybindings=[&#39;/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/&#39;, &#39;/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/&#39;, &#39;/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/&#39;, &#39;/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/&#39;, &#39;/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/&#39;, &#39;/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5/&#39;, &#39;/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom6/&#39;]\nnext=[&#39;&lt;Control&gt;Right&#39;]\nprevious=[&#39;&lt;Control&gt;Left&#39;]\nvolume-down=[&#39;&lt;Control&gt;Down&#39;]\nvolume-up=[&#39;&lt;Control&gt;Up&#39;]\n\n[custom-keybindings/custom0]\nbinding=&#39;&lt;Control&gt;&lt;Alt&gt;t&#39;\ncommand=&#39;terminator&#39;\nname=&#39;terminal&#39;\n\n[custom-keybindings/custom1]\nbinding=&#39;&lt;Super&gt;period&#39;\ncommand=&#39;emoji-picker&#39;\nname=&#39;emoji-picker&#39;\n\n[custom-keybindings/custom2]\nbinding=&#39;&lt;Shift&gt;&lt;Super&gt;a&#39;\ncommand=&#39;normcap&#39;\nname=&#39;OCR&#39;\n\n[custom-keybindings/custom3]\nbinding=&#39;&lt;Shift&gt;&lt;Super&gt;c&#39;\ncommand=&#39;eyedropper&#39;\nname=&#39;ColorPicker&#39;\n\n[custom-keybindings/custom4]\nbinding=&#39;&lt;Super&gt;1&#39;\ncommand=&#39;/usr/bin/sh /home/forceless/Code/chrome.sh&#39;\nname=&#39;chrome&#39;\n\n[custom-keybindings/custom5]\nbinding=&#39;&lt;Super&gt;2&#39;\ncommand=&#39;/usr/bin/sh /home/forceless/Code/files.sh&#39;\nname=&#39;files&#39;\n\n[custom-keybindings/custom6]\nbinding=&#39;&lt;Super&gt;3&#39;\ncommand=&#39;/usr/bin/sh /home/forceless/Code/code.sh&#39;\nname=&#39;code&#39;&#34;},&#34;tweaks&#34;:{&#34;/org/gnome/desktop/background/&#34;:&#34;[/]\ncolor-shading-type=&#39;solid&#39;\npicture-options=&#39;zoom&#39;\npicture-uri=&#39;file:///home/forceless/.local/share/backgrounds/2023-08-25-11-46-55-acg202110.gy_21.jpg&#39;\npicture-uri-dark=&#39;file:///home/forceless/.local/share/backgrounds/2023-08-25-11-46-55-acg202110.gy_21.jpg&#39;\nprimary-color=&#39;#000000000000&#39;\nsecondary-color=&#39;#000000000000&#39;&#34;,&#34;/org/gnome/desktop/calendar/&#34;:&#34;[/]\nshow-weekdate=false&#34;,&#34;/org/gnome/desktop/input-sources/&#34;:&#34;[/]\nshow-all-sources=true\nsources=[(&#39;xkb&#39;, &#39;cn&#39;)]\nxkb-options=@as []&#34;,&#34;/org/gnome/desktop/interface/&#34;:&#34;[/]\nclock-show-seconds=false\nclock-show-weekday=true\ncolor-scheme=&#39;default&#39;\ncursor-theme=&#39;Bibata-Modern-Ice&#39;\ndocument-font-name=&#39;MiSans 11&#39;\nenable-hot-corners=false\nfont-antialiasing=&#39;rgba&#39;\nfont-hinting=&#39;slight&#39;\nfont-name=&#39;MiSans 11&#39;\ngtk-key-theme=&#39;Default&#39;\ngtk-theme=&#39;Adw&#39;\nicon-theme=&#39;Fluent&#39;\nlocate-pointer=false\nmonospace-font-name=&#39;Droid Sans Mono 11&#39;\nshow-battery-percentage=false\ntoolkit-accessibility=false&#34;,&#34;/org/gnome/desktop/peripherals/&#34;:&#34;[keyboard]\nnumlock-state=true\n\n[mouse]\nspeed=1.0\n\n[touchpad]\ndisable-while-typing=true\nspeed=0.8199052132701421&#34;,&#34;/org/gnome/desktop/screensaver/&#34;:&#34;[/]\ncolor-shading-type=&#39;solid&#39;\nlock-enabled=false\npicture-options=&#39;zoom&#39;\npicture-uri=&#39;file:///home/forceless/.local/share/backgrounds/2023-08-25-11-46-55-acg202110.gy_21.jpg&#39;\nprimary-color=&#39;#000000000000&#39;\nsecondary-color=&#39;#000000000000&#39;&#34;,&#34;/org/gnome/desktop/sound/&#34;:&#34;[/]\nallow-volume-above-100-percent=true\nevent-sounds=true\ntheme-name=&#39;__custom&#39;&#34;,&#34;/org/gnome/desktop/wm/preferences/&#34;:&#34;[/]\nbutton-layout=&#39;close,minimize,maximize:appmenu&#39;\nnum-workspaces=1\ntitlebar-font=&#39;MiSans Bold Italic 11&#39;&#34;,&#34;/org/gnome/mutter/&#34;:&#34;[/]\ncenter-new-windows=true\ndynamic-workspaces=false\nexperimental-features=[&#39;x11-randr-fractional-scaling&#39;]\noverlay-key=&#39;Super_L&#39;\n\n[keybindings]\ntoggle-tiled-left=[&#39;&#39;]\ntoggle-tiled-right=[&#39;&#39;]\n\n[wayland/keybindings]\nrestore-shortcuts=[&#39;&#39;]&#34;,&#34;/org/gnome/settings-daemon/plugins/xsettings/&#34;:&#34;&#34;}}%
+- http://Force1ess.github.io/posts/linux%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8C%97/ - </description>
+        </item>
     
     
     
