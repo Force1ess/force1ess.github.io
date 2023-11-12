@@ -6,12 +6,12 @@
     <description>Recent content in 技术 on 啊哈咦</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Fri, 15 Sep 2023 14:09:15 +0800</lastBuildDate><atom:link href="http://Force1ess.github.io/tags/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Sep 2023 14:09:15 +0800</lastBuildDate>
+    <atom:link href="http://Force1ess.github.io/tags/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux配置指北</title>
       <link>http://Force1ess.github.io/posts/linux%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8C%97/</link>
       <pubDate>Fri, 15 Sep 2023 14:09:15 +0800</pubDate>
-      
       <guid>http://Force1ess.github.io/posts/linux%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8C%97/</guid>
       <description>Linux配置指北 由于今晚就要换一台mbp 16,所以写一篇blog记录自己是如何配置Linux, 最后说说为什么要换成mac
 系统设置： 这次装机选择了Arch下的Manjaro, 原因很简单，Ubuntu下有太多难以安装的软件包了。而Arch的包管理器采用滚动更新，在AUR的加持下可以安装似乎所有最新的软件。另外，Arch有一个非常好的中文文档和论坛。使用Manjaro的原因是它在Arch之上又覆盖了更多的常用配置和软件，类似 zsh等。他俩的关系类似于 Debian和 Ubuntu
@@ -36,6 +36,5 @@ VLC 挺失望的，做了这么久的视频播放器还这么不成熟，体验�
 将某个窗口置于前台
 #!/bin/bash if pgrep &amp;#34;code&amp;#34; &amp;gt; /dev/null; then wmctrl -a &amp;#34;Visual Studio Code&amp;#34; else code &amp;amp; fi 打开剪贴板、音乐相关及窗口设置</description>
     </item>
-    
   </channel>
 </rss>

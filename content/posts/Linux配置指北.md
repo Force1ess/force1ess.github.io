@@ -2,7 +2,7 @@
 title: "Linux配置指北"
 date: 2023-09-15T14:09:15+08:00
 draft: false
-featured_image: "/assets/acg202110.gy_21.jpg"
+featured_image: "/assets/blossom_full.jpeg"
 tags: ["技术"]
 ---
 
@@ -106,7 +106,7 @@ tags: ["技术"]
 
 果壳的课程安排是，中午只有一个半小时，下午只有一个小时休息时间，中间根本没有给笔记本充电的机会。另外，每周都需要开会。Win本只要两三个小时就基本寄了(Lenovo Yoga 16s)，续航尿崩。另外现在有了充裕的服务器，不需要NVIDIA显卡了
 
-此时我发现，身边一半的人都在用Mac。另外也确实眼馋Mac的屏幕(Mini LED+ProMotion)、摄像头(比镜子好用多了)、续航等。刚好今天抢购iPhone 15, 就顺便一起买了个mbp16(主要还是实验室抠门不给我们发)
+此时我发现，身边一半的人都在用Mac。另外也确实眼馋Mac的屏幕(Mini LED+ProMotion)、摄像头(比镜子好用多了)、续航等。刚好今天抢购iPhone 15, 就顺便一起买了个mbp16
 
 --- 
 

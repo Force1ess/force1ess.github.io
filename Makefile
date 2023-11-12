@@ -1,4 +1,4 @@
-server:
+serve:
 	hugo server -w -D
 clean:
 	rm -rf docs

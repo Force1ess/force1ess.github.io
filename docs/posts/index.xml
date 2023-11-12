@@ -6,12 +6,19 @@
     <description>Recent content in Posts on 啊哈咦</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Fri, 15 Sep 2023 14:09:15 +0800</lastBuildDate><atom:link href="http://Force1ess.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Nov 2023 21:21:22 +0800</lastBuildDate>
+    <atom:link href="http://Force1ess.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>阶段性记录-1</title>
+      <link>http://Force1ess.github.io/posts/%E9%98%B6%E6%AE%B5%E6%80%A7%E8%AE%B0%E5%BD%95-1/</link>
+      <pubDate>Sun, 12 Nov 2023 21:21:22 +0800</pubDate>
+      <guid>http://Force1ess.github.io/posts/%E9%98%B6%E6%AE%B5%E6%80%A7%E8%AE%B0%E5%BD%95-1/</guid>
+      <description>阶段性记录 个人状态 心理：非常焦虑，事情一多就感觉进程切换的开销特别大，好多事情切换着做着效率特别低下 学术：毫无建树，论文也没怎么看最近，思路也没有 学习：没能好好的完成学习任务 项目进展 FormatGPT：全无思路，先和同学交流下吧 CommonCrawl：快死在代码重构、优化的海洋里了 小事记录 吉他🎸学到了爬格子部分 摩托车终于过户完成 经验记录 不要重复造轮子，写之前找找别人的实现 去办一件麻烦的事情的时候，最好先打个电话问一下能不能办 多和同学交流，不要实名上网 展望 改善自己的状态，从小的事情开始慢慢一件一件的完成，不要拖 不管怎么样，每天都要坚持读一些论文，看看一些代码 </description>
+    </item>
     <item>
       <title>Linux配置指北</title>
       <link>http://Force1ess.github.io/posts/linux%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8C%97/</link>
       <pubDate>Fri, 15 Sep 2023 14:09:15 +0800</pubDate>
-      
       <guid>http://Force1ess.github.io/posts/linux%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8C%97/</guid>
       <description>Linux配置指北 由于今晚就要换一台mbp 16,所以写一篇blog记录自己是如何配置Linux, 最后说说为什么要换成mac
 系统设置： 这次装机选择了Arch下的Manjaro, 原因很简单，Ubuntu下有太多难以安装的软件包了。而Arch的包管理器采用滚动更新，在AUR的加持下可以安装似乎所有最新的软件。另外，Arch有一个非常好的中文文档和论坛。使用Manjaro的原因是它在Arch之上又覆盖了更多的常用配置和软件，类似 zsh等。他俩的关系类似于 Debian和 Ubuntu
@@ -36,12 +43,10 @@ VLC 挺失望的，做了这么久的视频播放器还这么不成熟，体验�
 将某个窗口置于前台
 #!/bin/bash if pgrep &amp;#34;code&amp;#34; &amp;gt; /dev/null; then wmctrl -a &amp;#34;Visual Studio Code&amp;#34; else code &amp;amp; fi 打开剪贴板、音乐相关及窗口设置</description>
     </item>
-    
     <item>
       <title>建站首文</title>
       <link>http://Force1ess.github.io/posts/%E5%BB%BA%E7%AB%99%E9%A6%96%E6%96%87/</link>
       <pubDate>Sun, 20 Aug 2023 18:44:48 +0800</pubDate>
-      
       <guid>http://Force1ess.github.io/posts/%E5%BB%BA%E7%AB%99%E9%A6%96%E6%96%87/</guid>
       <description>终于建站啦 早就想拥有一个自己的个人网站，但是一方面因为自己太过懒狗，一方面也没有什么太多好写的，一直没有开始行动
 刚好现在研 0, 入学 ISCAS 的中文实验室，百废待兴，决定做一个个人网站记录自己的生活
@@ -49,10 +54,9 @@ VLC 挺失望的，做了这么久的视频播放器还这么不成熟，体验�
 主题选用Diary，颜值对眼，可惜的是文档说明非常简陋，而且个人希望中国人写的框架能有一个中文文档~~，虽然也不是必需品吧~~
 顺便也列出自己的研究生规划:
 学会开摩托车
-学会尤克里里
+学会吉他
 托福 90+
 练出腹肌</description>
     </item>
-    
   </channel>
 </rss>

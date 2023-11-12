@@ -6,9 +6,48 @@
     <description>Recent content on 啊哈咦</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Fri, 15 Sep 2023 14:09:15 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 12 Nov 2023 21:21:22 +0800</lastBuildDate>
     
         <atom:link href="http://Force1ess.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+        <item>
+        <title>阶段性记录-1</title>
+        <link>http://Force1ess.github.io/posts/%E9%98%B6%E6%AE%B5%E6%80%A7%E8%AE%B0%E5%BD%95-1/</link>
+        <pubDate>Sun, 12 Nov 2023 21:21:22 +0800</pubDate>
+        
+        <guid>http://Force1ess.github.io/posts/%E9%98%B6%E6%AE%B5%E6%80%A7%E8%AE%B0%E5%BD%95-1/</guid>
+        <description>啊哈咦 http://Force1ess.github.io/posts/%E9%98%B6%E6%AE%B5%E6%80%A7%E8%AE%B0%E5%BD%95-1/ -&lt;h1 id=&#34;阶段性记录&#34;&gt;阶段性记录&lt;/h1&gt;
+&lt;h3 id=&#34;个人状态&#34;&gt;个人状态&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;心理：非常焦虑，事情一多就感觉进程切换的开销特别大，好多事情切换着做着效率特别低下&lt;/li&gt;
+&lt;li&gt;学术：毫无建树，论文也没怎么看最近，思路也没有&lt;/li&gt;
+&lt;li&gt;学习：没能好好的完成学习任务&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;项目进展&#34;&gt;项目进展&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;FormatGPT：全无思路，先和同学交流下吧&lt;/li&gt;
+&lt;li&gt;CommonCrawl：快死在代码重构、优化的海洋里了&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;小事记录&#34;&gt;小事记录&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;吉他🎸学到了爬格子部分&lt;/li&gt;
+&lt;li&gt;摩托车终于过户完成&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;经验记录&#34;&gt;经验记录&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;不要重复造轮子，写之前找找别人的实现&lt;/li&gt;
+&lt;li&gt;去办一件麻烦的事情的时候，最好先打个电话问一下能不能办&lt;/li&gt;
+&lt;li&gt;多和同学交流，不要实名上网&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;展望&#34;&gt;展望&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;改善自己的状态，从小的事情开始慢慢一件一件的完成，不要拖&lt;/li&gt;
+&lt;li&gt;不管怎么样，每天都要坚持读一些论文，看看一些代码&lt;/li&gt;
+&lt;/ol&gt;
+- http://Force1ess.github.io/posts/%E9%98%B6%E6%AE%B5%E6%80%A7%E8%AE%B0%E5%BD%95-1/ - </description>
+        </item>
     
     
     
@@ -124,7 +163,7 @@
 &lt;/blockquote&gt;
 &lt;p&gt;简而言之：Apple Silicon&lt;/p&gt;
 &lt;p&gt;果壳的课程安排是，中午只有一个半小时，下午只有一个小时休息时间，中间根本没有给笔记本充电的机会。另外，每周都需要开会。Win本只要两三个小时就基本寄了(Lenovo Yoga 16s)，续航尿崩。另外现在有了充裕的服务器，不需要NVIDIA显卡了&lt;/p&gt;
-&lt;p&gt;此时我发现，身边一半的人都在用Mac。另外也确实眼馋Mac的屏幕(Mini LED+ProMotion)、摄像头(比镜子好用多了)、续航等。刚好今天抢购iPhone 15, 就顺便一起买了个mbp16(主要还是实验室抠门不给我们发)&lt;/p&gt;
+&lt;p&gt;此时我发现，身边一半的人都在用Mac。另外也确实眼馋Mac的屏幕(Mini LED+ProMotion)、摄像头(比镜子好用多了)、续航等。刚好今天抢购iPhone 15, 就顺便一起买了个mbp16&lt;/p&gt;
 &lt;hr&gt;
 &lt;details&gt;
 &lt;summary&gt;gnome-extensions&lt;/summary&gt; {&#34;extensions&#34;:{&#34;unlockDialogBackground@sun.wxg@gmail.com&#34;:{&#34;/org/gnome/shell/extensions/unlock-dialog-background/&#34;:&#34;[/]\npicture-uri=&#39;/home/forceless/Pictures/107533107_p0_master1200.jpg&#39;\npicture-uri-dark=&#39;/home/forceless/Pictures/107533107_p0_master1200.jpg&#39;&#34;},&#34;bluetooth-quick-connect@bjarosze.gmail.com&#34;:{&#34;/org/gnome/shell/extensions/bluetooth-quick-connect/&#34;:&#34;[/]\nbluetooth-auto-power-on=true\ndebug-mode-on=true\nkeep-menu-on-toggle=true\nrefresh-button-on=true\nshow-battery-value-on=true&#34;},&#34;kimpanel@kde.org&#34;:{&#34;/org/gnome/shell/extensions/kimpanel/&#34;:&#34;&#34;},&#34;mediacontrols@cliffniff.github.com&#34;:{&#34;/org/gnome/shell/extensions/mediacontrols/&#34;:&#34;[/]\ncolored-player-icon=true\nextension-position=&#39;center&#39;\nhide-media-notification=false\nmouse-actions=[&#39;toggle_play&#39;, &#39;toggle_menu&#39;, &#39;none&#39;, &#39;none&#39;, &#39;none&#39;, &#39;none&#39;, &#39;none&#39;, &#39;none&#39;]\nprefer-using-seek=false\nseperator-chars=[&#39;|&#39;, &#39;|&#39;]\nshow-control-icons=true\nshow-player-icon=false\nshow-playpause-icon=true\nshow-seek-back=false\nshow-seek-forward=false\nshow-seperators=false\nshow-sources-menu=false\nshow-text=false\ntrack-label=[&#39;none&#39;, &#39;-&#39;, &#39;none&#39;]&#34;},&#34;noannoyance-fork@vrba.dev&#34;:{&#34;/org/gnome/shell/extensions/noannoyance-fork/&#34;:&#34;&#34;},&#34;openweather-extension@jenslody.de&#34;:{&#34;/org/gnome/shell/extensions/openweather/&#34;:&#34;[/]\nactual-city=0\ncity=&#39;39.9740057,116.3132061&gt;中关村, 中关村街道, 东升镇, 海淀区, 北京市, 100086, 中国&gt;0&#39;\nposition-in-panel=&#39;center&#39;&#34;},&#34;blur-my-shell@aunetx&#34;:{&#34;/org/gnome/shell/extensions/blur-my-shell/&#34;:&#34;[/]\nbrightness=0.59999999999999998\ncolor=(0.0, 0.0, 0.0, 0.0)\ncolor-and-noise=false\nhacks-level=1\nnoise-amount=0.029999999999999999\nsigma=3\n\n[applications]\nblur=false\n\n[dash-to-dock]\nblur=true\ncustomize=true\nsigma=200\n\n[hidetopbar]\ncompatibility=false\n\n[overview]\nblur=true\ncustomize=false\nsigma=4\n\n[panel]\nblur=false\nbrightness=1.0\ncustomize=true\noverride-background=false\nsigma=108\nstatic-blur=true\nunblur-in-overview=false&#34;,&#34;/org/gnome/shell/extensions/blur-my-shell/overview/&#34;:&#34;[/]\nblur=true\ncustomize=false\nsigma=4&#34;,&#34;/org/gnome/shell/extensions/blur-my-shell/appfolder/&#34;:&#34;&#34;,&#34;/org/gnome/shell/extensions/blur-my-shell/panel/&#34;:&#34;[/]\nblur=false\nbrightness=1.0\ncustomize=true\noverride-background=false\nsigma=108\nstatic-blur=true\nunblur-in-overview=false&#34;,&#34;/org/gnome/shell/extensions/blur-my-shell/dash-to-dock/&#34;:&#34;[/]\nblur=true\ncustomize=true\nsigma=200&#34;,&#34;/org/gnome/shell/extensions/blur-my-shell/applications/&#34;:&#34;[/]\nblur=false&#34;,&#34;/org/gnome/shell/extensions/blur-my-shell/screenshot/&#34;:&#34;&#34;,&#34;/org/gnome/shell/extensions/blur-my-shell/lockscreen/&#34;:&#34;&#34;,&#34;/org/gnome/shell/extensions/blur-my-shell/window-list/&#34;:&#34;&#34;,&#34;/org/gnome/shell/extensions/blur-my-shell/hidetopbar/&#34;:&#34;[/]\ncompatibility=false&#34;,&#34;/org/gnome/shell/extensions/blur-my-shell/dash-to-panel/&#34;:&#34;&#34;}},&#34;keybindings&#34;:{&#34;/org/gnome/mutter/keybindings/&#34;:&#34;[/]\ntoggle-tiled-left=[&#39;&#39;]\ntoggle-tiled-right=[&#39;&#39;]&#34;,&#34;/org/gnome/mutter/wayland/keybindings/&#34;:&#34;[/]\nrestore-shortcuts=[&#39;&#39;]&#34;,&#34;/org/gnome/shell/keybindings/&#34;:&#34;[/]\nshow-screenshot-ui=[&#39;&lt;Shift&gt;&lt;Super&gt;s&#39;]\ntoggle-application-view=[&#39;&#39;]\ntoggle-message-tray=@as []\ntoggle-overview=[&#39;&#39;]&#34;,&#34;/org/gnome/desktop/wm/keybindings/&#34;:&#34;[/]\nclose=[&#39;&lt;Alt&gt;F4&#39;]\nmove-to-workspace-1=[&#39;&#39;]\nmove-to-workspace-10=[&#39;&#39;]\nmove-to-workspace-2=[&#39;&#39;]\nmove-to-workspace-3=[&#39;&#39;]\nmove-to-workspace-4=[&#39;&#39;]\nmove-to-workspace-5=[&#39;&#39;]\nmove-to-workspace-6=[&#39;&#39;]\nmove-to-workspace-7=[&#39;&#39;]\nmove-to-workspace-8=[&#39;&#39;]\nmove-to-workspace-9=[&#39;&#39;]\nshow-desktop=[&#39;&lt;Super&gt;d&#39;]\nswitch-input-source=[&#39;&#39;]\nswitch-input-source-backward=[&#39;&#39;]\nswitch-to-workspace-1=[&#39;&#39;]\nswitch-to-workspace-10=[&#39;&#39;]\nswitch-to-workspace-2=[&#39;&#39;]\nswitch-to-workspace-3=[&#39;&#39;]\nswitch-to-workspace-4=[&#39;&#39;]\nswitch-to-workspace-5=[&#39;&#39;]\nswitch-to-workspace-6=[&#39;&#39;]\nswitch-to-workspace-7=[&#39;&#39;]\nswitch-to-workspace-8=[&#39;&#39;]\nswitch-to-workspace-9=[&#39;&#39;]\nunmaximize=[&#39;&#39;]&#34;,&#34;/org/gnome/settings-daemon/plugins/media-keys/&#34;:&#34;[/]\ncustom-keybindings=[&#39;/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/&#39;, &#39;/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/&#39;, &#39;/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/&#39;, &#39;/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/&#39;, &#39;/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/&#39;, &#39;/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5/&#39;, &#39;/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom6/&#39;]\nnext=[&#39;&lt;Control&gt;Right&#39;]\nprevious=[&#39;&lt;Control&gt;Left&#39;]\nvolume-down=[&#39;&lt;Control&gt;Down&#39;]\nvolume-up=[&#39;&lt;Control&gt;Up&#39;]\n\n[custom-keybindings/custom0]\nbinding=&#39;&lt;Control&gt;&lt;Alt&gt;t&#39;\ncommand=&#39;terminator&#39;\nname=&#39;terminal&#39;\n\n[custom-keybindings/custom1]\nbinding=&#39;&lt;Super&gt;period&#39;\ncommand=&#39;emoji-picker&#39;\nname=&#39;emoji-picker&#39;\n\n[custom-keybindings/custom2]\nbinding=&#39;&lt;Shift&gt;&lt;Super&gt;a&#39;\ncommand=&#39;normcap&#39;\nname=&#39;OCR&#39;\n\n[custom-keybindings/custom3]\nbinding=&#39;&lt;Shift&gt;&lt;Super&gt;c&#39;\ncommand=&#39;eyedropper&#39;\nname=&#39;ColorPicker&#39;\n\n[custom-keybindings/custom4]\nbinding=&#39;&lt;Super&gt;1&#39;\ncommand=&#39;/usr/bin/sh /home/forceless/Code/chrome.sh&#39;\nname=&#39;chrome&#39;\n\n[custom-keybindings/custom5]\nbinding=&#39;&lt;Super&gt;2&#39;\ncommand=&#39;/usr/bin/sh /home/forceless/Code/files.sh&#39;\nname=&#39;files&#39;\n\n[custom-keybindings/custom6]\nbinding=&#39;&lt;Super&gt;3&#39;\ncommand=&#39;/usr/bin/sh /home/forceless/Code/code.sh&#39;\nname=&#39;code&#39;&#34;},&#34;tweaks&#34;:{&#34;/org/gnome/desktop/background/&#34;:&#34;[/]\ncolor-shading-type=&#39;solid&#39;\npicture-options=&#39;zoom&#39;\npicture-uri=&#39;file:///home/forceless/.local/share/backgrounds/2023-08-25-11-46-55-acg202110.gy_21.jpg&#39;\npicture-uri-dark=&#39;file:///home/forceless/.local/share/backgrounds/2023-08-25-11-46-55-acg202110.gy_21.jpg&#39;\nprimary-color=&#39;#000000000000&#39;\nsecondary-color=&#39;#000000000000&#39;&#34;,&#34;/org/gnome/desktop/calendar/&#34;:&#34;[/]\nshow-weekdate=false&#34;,&#34;/org/gnome/desktop/input-sources/&#34;:&#34;[/]\nshow-all-sources=true\nsources=[(&#39;xkb&#39;, &#39;cn&#39;)]\nxkb-options=@as []&#34;,&#34;/org/gnome/desktop/interface/&#34;:&#34;[/]\nclock-show-seconds=false\nclock-show-weekday=true\ncolor-scheme=&#39;default&#39;\ncursor-theme=&#39;Bibata-Modern-Ice&#39;\ndocument-font-name=&#39;MiSans 11&#39;\nenable-hot-corners=false\nfont-antialiasing=&#39;rgba&#39;\nfont-hinting=&#39;slight&#39;\nfont-name=&#39;MiSans 11&#39;\ngtk-key-theme=&#39;Default&#39;\ngtk-theme=&#39;Adw&#39;\nicon-theme=&#39;Fluent&#39;\nlocate-pointer=false\nmonospace-font-name=&#39;Droid Sans Mono 11&#39;\nshow-battery-percentage=false\ntoolkit-accessibility=false&#34;,&#34;/org/gnome/desktop/peripherals/&#34;:&#34;[keyboard]\nnumlock-state=true\n\n[mouse]\nspeed=1.0\n\n[touchpad]\ndisable-while-typing=true\nspeed=0.8199052132701421&#34;,&#34;/org/gnome/desktop/screensaver/&#34;:&#34;[/]\ncolor-shading-type=&#39;solid&#39;\nlock-enabled=false\npicture-options=&#39;zoom&#39;\npicture-uri=&#39;file:///home/forceless/.local/share/backgrounds/2023-08-25-11-46-55-acg202110.gy_21.jpg&#39;\nprimary-color=&#39;#000000000000&#39;\nsecondary-color=&#39;#000000000000&#39;&#34;,&#34;/org/gnome/desktop/sound/&#34;:&#34;[/]\nallow-volume-above-100-percent=true\nevent-sounds=true\ntheme-name=&#39;__custom&#39;&#34;,&#34;/org/gnome/desktop/wm/preferences/&#34;:&#34;[/]\nbutton-layout=&#39;close,minimize,maximize:appmenu&#39;\nnum-workspaces=1\ntitlebar-font=&#39;MiSans Bold Italic 11&#39;&#34;,&#34;/org/gnome/mutter/&#34;:&#34;[/]\ncenter-new-windows=true\ndynamic-workspaces=false\nexperimental-features=[&#39;x11-randr-fractional-scaling&#39;]\noverlay-key=&#39;Super_L&#39;\n\n[keybindings]\ntoggle-tiled-left=[&#39;&#39;]\ntoggle-tiled-right=[&#39;&#39;]\n\n[wayland/keybindings]\nrestore-shortcuts=[&#39;&#39;]&#34;,&#34;/org/gnome/settings-daemon/plugins/xsettings/&#34;:&#34;&#34;}}%
@@ -147,10 +186,10 @@
 &lt;p&gt;顺便也列出自己的研究生规划:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 学会开摩托车&lt;/p&gt;
+&lt;p&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 学会开摩托车&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 学会尤克里里&lt;/p&gt;
+&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 学会吉他&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 托福 90+&lt;/p&gt;
