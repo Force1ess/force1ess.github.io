@@ -26,6 +26,8 @@ tags: ["技术"]
 
 8. 永远不要期待gc 语言会释放已经占用的内存
 
+   >  例外: [使用*max_tasks_per_child释放子进程内存*](https://docs.python.org/zh-cn/3/library/concurrent.futures.html#concurrent.futures.ProcessPoolExecutor:~:text=%E5%9C%A8%203.11%20%E7%89%88%E6%9B%B4%E6%94%B9%3A%20%E5%A2%9E%E5%8A%A0%E4%BA%86%20max_tasks_per_child%20%E5%8F%82%E6%95%B0%E4%BB%A5%E5%85%81%E8%AE%B8%E7%94%A8%E6%88%B7%E6%8E%A7%E5%88%B6%E8%BF%9B%E7%A8%8B%E6%B1%A0%E4%B8%AD%E5%B7%A5%E4%BD%9C%E8%BF%9B%E7%A8%8B%E7%9A%84%E7%94%9F%E5%91%BD%E6%9C%9F%E3%80%82)
+
 9. 不要给只写一次的IO对象加上buffer
 
 10. 什么是惰性求值：简单来说就是，不在表达式处立即计算或阻塞，而是在之后用到再阻塞，例如：
