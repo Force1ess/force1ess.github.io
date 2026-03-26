@@ -1,0 +1,49 @@
+baseURL = 'http://localhost/'
+languageCode = 'zh'
+title = '啊哈咦'
+theme = 'diary'
+
+[outputs]
+home = ['HTML', 'RSS']
+
+[params]
+subtitle = "没有技术，全是生活"
+favicon ="https://avatars.githubusercontent.com/u/72636351?v=4"
+enableGiscus = true
+
+[params.giscus]
+data_repo = "Force1ess/force1ess.github.io"
+data_repo_id = "R_kgDORxIfTg"
+data_category = "Announcements"
+data_category_id = "DIC_kwDORxIfTs4C5Tzu"
+data_mapping = "pathname"
+data_strict = "1"
+data_reactions_enabled = "1"
+data_emit_metadata = "0"
+data_input_position = "top"
+data_theme = "preferred_color_scheme"
+data_lang = "zh-CN"
+crossorigin = "anonymous"
+
+[[menu.main]]
+url = "/posts"
+name = "Vault 文章"
+weight = 2
+
+[[menu.main]]
+url = "/index.xml"
+name = "RSS 订阅"
+weight = 4
+
+[[menu.main]]
+url = "/tags"
+name = "Tags 标签"
+weight = 2
+
+[[menu.main]]
+url = "/about"
+name = "About Me 我"
+
+
+[markup.goldmark.renderer]
+    unsafe = true

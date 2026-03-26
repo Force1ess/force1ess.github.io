@@ -1,0 +1,10 @@
+{
+  "buildCommand": "hugo --gc --config config.toml --baseURL \"https://${VERCEL_PROJECT_PRODUCTION_URL}\"",
+  "outputDirectory": "public",
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/index.html"
+    }
+  ]
+}
