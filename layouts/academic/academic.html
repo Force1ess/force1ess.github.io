@@ -91,7 +91,7 @@
     .nav-links a {
       padding: 8px 16px;
       border-radius: 999px;
-      font-size: 14px;
+      font-size: 18px;
       color: #445249;
       transition: all 0.25s ease;
     }
@@ -117,16 +117,18 @@
       background: var(--bg-soft);
       box-shadow: var(--shadow);
       backdrop-filter: blur(12px);
-      border-radius: 28px;
+      border-radius: 18px;
     }
 
     .profile-card {
       padding: 20px;
-      height: fit-content;
+      display: flex;
+      flex-direction: column;
     }
 
     .photo-frame {
-      aspect-ratio: 4/5;
+      flex: 1;
+      min-height: 0;
       overflow: hidden;
       border-radius: 20px;
       background: #dfe8df;
@@ -186,7 +188,7 @@
       display: grid;
       grid-template-columns: 140px 1fr;
       gap: 16px;
-      padding: 20px 0;
+      padding: 10px 0;
       border-bottom: 1px solid var(--line);
     }
 
@@ -201,9 +203,24 @@
 
     .bio-row p {
       margin: 0;
-      font-size: 15px;
+      font-size: 18px;
       line-height: 1.6;
       color: #47554c;
+    }
+
+    .bio-row p a {
+      color: var(--accent);
+      font-weight: 600;
+      transition: all 0.2s ease;
+    }
+
+    .bio-row p a:hover {
+      color: #1d4637;
+      text-decoration-color: var(--accent);
+      background: rgba(47, 90, 75, 0.08);
+      border-radius: 3px;
+      padding: 0 2px;
+      margin: 0 -2px;
     }
 
     /* 论文列表 */
@@ -235,19 +252,22 @@
 
     .publication-card {
       display: grid;
-      grid-template-columns: 1fr 300px;
+      grid-template-columns: 1fr 1fr;
+      /* 关键：各占一半 */
       gap: 32px;
-      padding: 32px;
+      padding: 20px 32px;
+      align-items: center;
+      /* 关键：让左右两栏内容在垂直方向居中对齐 */
     }
 
     .publication-copy h3 {
       font-family: "Baskervville", serif;
-      font-size: 24px;
+      font-size: 25px;
       margin: 0 0 12px;
     }
 
     .pub-authors {
-      font-size: 15px;
+      font-size: 16px;
       margin-bottom: 8px;
       color: #4e5c53;
     }
@@ -256,6 +276,7 @@
       font-style: italic;
       color: var(--muted);
       margin-bottom: 16px;
+      border-left: 5px
     }
 
     .pub-links {
@@ -268,22 +289,40 @@
       padding: 6px 14px;
       background: var(--chip);
       border-radius: 20px;
-      font-size: 13px;
+      font-size: 14px;
+      font-weight: 600;
+      color: #1f2a24;
       display: inline-flex;
       align-items: center;
       gap: 6px;
       border: 1px solid rgba(0, 0, 0, 0.05);
+      transition: all 0.25s ease;
+    }
+
+    .pub-links a:hover {
+      background: rgba(40, 56, 49, 0.08);
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    }
+
+    .figure-box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
     }
 
     .figure-box img {
       width: 100%;
+      height: auto;
       border-radius: 12px;
+      display: block;
     }
 
     .work-card {
       display: grid;
       grid-template-columns: 180px 1fr;
-      padding: 32px;
+      padding: 20px;
       gap: 24px;
     }
 
@@ -321,6 +360,11 @@
         margin: 0 auto;
       }
 
+      .photo-frame {
+        aspect-ratio: 4/5;
+        flex: none;
+      }
+
       .bio-row {
         grid-template-columns: 1fr;
         gap: 4px;
@@ -328,11 +372,14 @@
 
       .publication-card {
         grid-template-columns: 1fr;
-        padding: 20px;
+        /* 手机端切回单列 */
+        padding: 12px 20px;
+        gap: 20px;
       }
 
       .publication-card .figure-box {
         order: -1;
+        /* 图片排在文字上方 */
       }
 
       /* 图片放到文字上面 */
@@ -401,24 +448,36 @@
 
       <div class="bio-card">
         <div class="bio-row">
+          <span class="bio-label">Bio</span>
+          <p>Hi, I am Hao Zheng, currently focusing on building LLM-based agents
+            that automate presentation generation.</p>
+        </div>
+        <div class="bio-row">
+          <span class="bio-label">Impact</span>
+          <p>
+            Our open-source projects have accumulated <strong>3,800+ GitHub stars</strong>, <strong>400+ forks</strong>,
+            and <strong>1,000+ downloads</strong> on Hugging Face.
+            Reported by <a href="https://www.cas.cn/syky/202603/t20250325_5105066.shtml">Chinese Academy of
+              Sciences</a>,
+            <a href="https://www.iscas.ac.cn/xwdt2016/kyjz2016/202603/t20260324_8168898.html#">Institute of
+              Software</a>, and
+            <a href="https://mp.weixin.qq.com/s/Ks6h3SeYuS2HhsvtEMiNBQ">机器之心</a>.
+            Our work has been adopted as the academic baseline for presentation generation and widely deployed in
+            industry.
+          </p>
+        </div>
+
+        <div class="bio-row">
           <span class="bio-label">Education</span>
-          <p>M.S. in Software Engineering at the Institute of Software, University of Chinese Academy of Sciences; B.E.
-            in Software Engineering from Zhejiang University of Technology, obtained in June 2023.</p>
+          <p>M.S. in Software Engineering, Institute of Software, University of Chinese Academy of Sciences
+            (2023–present);
+            B.E. in Software Engineering, Zhejiang University of Technology (received June 2023).</p>
         </div>
-        <div class="bio-row">
-          <span class="bio-label">Research Interests</span>
-          <p>Large language models, AI agents, and presentation generation.</p>
-        </div>
-        <div class="bio-row">
-          <span class="bio-label">Affiliation</span>
-          <p>Institute of Software, University of Chinese Academy of Sciences; since September 2023, I have been
-            exploring innovative applications of large language models for agent systems in the Institute of Chinese
-            Information Processing.</p>
-        </div>
+
         <div class="bio-row">
           <span class="bio-label">Focus</span>
-          <p>I care about building research systems that are technically rigorous while remaining practical,
-            communicative, and usable.</p>
+          <p>I am obsessed with pushing the frontier of agentic intelligence, and
+            ultimately liberating everyone from livelihood work.</p>
         </div>
       </div>
     </div>
@@ -493,7 +552,8 @@
         <div class="work-content">
           <h3>JD Explorer Academy</h3>
           <p class="work-role">Intern</p>
-          <p>Worked at JD Explorer Academy from June 2025 to August 2025.</p>
+          <p>Built a personalized LLM with empathetic and colloquial conversational abilities for user-facing
+            interaction scenarios.</p>
         </div>
       </div>
     </section>
