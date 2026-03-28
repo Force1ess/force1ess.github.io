@@ -74,6 +74,7 @@
       justify-content: space-between;
       flex-wrap: wrap;
       gap: 16px;
+      width: 100%;
     }
 
     .wordmark {
@@ -81,11 +82,14 @@
       font-size: clamp(24px, 5vw, 32px);
       color: #1d2b25;
       margin: 0;
+      min-width: 0;
     }
 
     .nav-links {
       display: flex;
       gap: 8px;
+      flex-wrap: wrap;
+      min-width: 0;
     }
 
     .nav-links a {
@@ -340,29 +344,70 @@
 
     /* 移动端适配 */
     @media (max-width: 850px) {
+      .page {
+        padding: 16px 16px 56px;
+      }
+
       .nav-shell {
-        padding: 20px;
+        padding: 18px 16px;
         margin-bottom: 32px;
-        align-items: center;
-        text-align: center;
       }
 
       .nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
+        gap: 14px;
+      }
+
+      .wordmark {
+        font-size: clamp(20px, 11vw, 32px);
+        line-height: 1.1;
+        text-align: center;
+        overflow-wrap: anywhere;
+      }
+
+      .nav-links {
         justify-content: center;
       }
 
+      .nav-links a {
+        padding: 8px 12px;
+        font-size: 17px;
+      }
+
       .intro-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: minmax(0, 1fr);
+        gap: 24px;
       }
 
       .profile-card {
-        max-width: 400px;
-        margin: 0 auto;
+        width: 100%;
+        max-width: none;
+        margin: 0;
+      }
+
+      .profile-footer {
+        gap: 16px;
+      }
+
+      .profile-meta {
+        min-width: 0;
+        flex: 1;
+      }
+
+      .name {
+        overflow-wrap: anywhere;
       }
 
       .photo-frame {
         aspect-ratio: 4/5;
         flex: none;
+      }
+
+      .bio-card {
+        width: 100%;
+        padding: 8px 20px;
       }
 
       .bio-row {
