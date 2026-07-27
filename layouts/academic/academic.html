@@ -330,16 +330,40 @@
       gap: 24px;
     }
 
-    .work-period {
-      color: var(--muted);
-      font-size: 14px;
-      font-weight: 700;
+    .work-logo {
+      width: 100%;
+      max-width: 160px;
+      height: auto;
+      align-self: center;
     }
 
     .work-content h3 {
       margin: 0 0 8px;
       font-size: 22px;
       font-family: "Baskervville", serif;
+    }
+
+    .work-meta {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 16px;
+      padding-right: 12px;
+    }
+
+    .work-meta p {
+      margin: 0;
+    }
+
+    .work-meta + p {
+      margin-top: 8px;
+    }
+
+    .work-period {
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 700;
+      white-space: nowrap;
     }
 
     /* 移动端适配 */
@@ -495,28 +519,28 @@
       <div class="bio-card">
         <div class="bio-row">
           <span class="bio-label">Bio</span>
-          <p>Hi, I am Hao Zheng, currently focusing on building LLM agents
-            that automate presentation generation.</p>
+          <p>Hi, I am Hao Zheng, a researcher at SenseTime Research working on agentic coding for the SenseNova
+            foundation model.</p>
         </div>
         <div class="bio-row">
           <span class="bio-label">Impact</span>
           <p>
-            Our open-source projects have accumulated <strong>4,000+ GitHub stars</strong>, <strong>400+ forks</strong>,
-            and <strong>1,000+ downloads</strong> on Hugging Face.
-            Reported by <a href="https://www.cas.cn/syky/202603/t20260325_5105066.shtml">Chinese Academy of
+            My open-source work, <a href="https://github.com/icip-cas/PPTAgent" target="_blank"
+              rel="noopener">PPTAgent</a>, has accumulated <strong>4,000+ GitHub stars</strong>,
+            <strong>400+ forks</strong>, and <strong>1,000+ Hugging Face downloads</strong>.
+            It has been reported by <a href="https://www.cas.cn/syky/202603/t20260325_5105066.shtml">Chinese Academy of
               Sciences</a>,
             <a href="https://www.iscas.ac.cn/xwdt2016/kyjz2016/202603/t20260324_8168898.html#">Institute of
               Software</a>, and
-            <a href="https://mp.weixin.qq.com/s/Ks6h3SeYuS2HhsvtEMiNBQ">机器之心</a>.
-            Our work has been adopted as the academic baseline for presentation generation and widely deployed in
-            industry.
+            <a href="https://mp.weixin.qq.com/s/Ks6h3SeYuS2HhsvtEMiNBQ">机器之心</a>, and adopted as an academic baseline
+            for presentation generation and deployed in industry.
           </p>
         </div>
 
         <div class="bio-row">
           <span class="bio-label">Education</span>
           <p>M.S. in Software Engineering, Institute of Software, University of Chinese Academy of Sciences
-            (2023–present);
+            (received June 2026);
             B.E. in Software Engineering, Zhejiang University of Technology (received June 2023).</p>
         </div>
 
@@ -594,12 +618,16 @@
       </div>
 
       <div class="work-card">
-        <div class="work-period">Jun 2025 - Aug 2025</div>
+        <img class="work-logo" src="/images/sensetime-logo.png" alt="SenseTime logo">
         <div class="work-content">
-          <h3>JD Explorer Academy</h3>
-          <p class="work-role">Intern</p>
-          <p>Built a personalized LLM with empathetic and colloquial conversational abilities for user-facing
-            interaction scenarios.</p>
+          <h3>SenseTime Research</h3>
+          <div class="work-meta">
+            <p class="work-role">Researcher</p>
+            <span class="work-period">2026.6 – Present</span>
+          </div>
+          <p>Responsible for agentic coding for the SenseNova foundation model, with a focus on frontend development.
+            The work aims to push the frontier of artifact generation and long-horizon frontend project execution
+            through post-training.</p>
         </div>
       </div>
     </section>

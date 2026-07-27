@@ -1,5 +1,5 @@
 baseURL = 'http://localhost/'
-languageCode = 'zh'
+locale = 'zh'
 title = '啊哈咦'
 theme = 'diary'
 
